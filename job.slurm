@@ -14,7 +14,7 @@
 
 module purge
 module load anaconda3/2022.10
-source /scratch/network/efyoung/COS484FinalProject/myenv/bin/activate
+conda activate datamux
 
 sh run_ner.sh \
    -N 1 \
