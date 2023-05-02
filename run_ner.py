@@ -307,7 +307,7 @@ def main():
     if data_args.dataset_name is not None:
         # Downloading and loading a dataset from the hub.
         raw_datasets = load_dataset(
-            data_args.dataset_name, data_args.dataset_config_name, cache_dir=model_args.cache_dir
+            "scratch/network/efyoung/COS484FinalProject/COS484Proj-Datamux/conll2003"
         )
     else:
         data_files = {}
