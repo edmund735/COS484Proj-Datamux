@@ -6,7 +6,7 @@
 #SBATCH --mem-per-cpu=4G         # memory per cpu-core
 #SBATCH --gres=gpu:1             # number of gpus per node
 #SBATCH --time=24:00:30          # total run time limit (HH:MM:SS)
-#SBATCH --constraint=a100        # choose a100 or v100
+#SBATCH --constraint=v100        # choose a100 or v100
 #SBATCH --mail-type=all          # send email when job begins, ends and fails
 #SBATCH --mail-user=efyoung@princeton.edu
 
