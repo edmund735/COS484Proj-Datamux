@@ -13,8 +13,7 @@
 
 
 module purge
-module load anaconda3/2022.10
-conda activate datamux
+conda source datamux
 
 sh run_ner.sh \
    -N 1 \
